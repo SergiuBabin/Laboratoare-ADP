@@ -1,0 +1,8 @@
+Pentru run foloseste comenzile:
+
+							make run_x 
+							
+Unde x este numarul exercitiului.
+
+Fiecare exercitiu se executa de un numar prestabilit de ori, pentru a putea observa 
+corectitudinea.

@@ -1,0 +1,27 @@
+Exercitii:
+
+1) Cand schimbam numarul de thread-uri se mareste si timpul de executie 
+Pentru 2 thread-uri:
+	real	0m0.004s
+	user	0m0.001s
+	sys	0m0.002s
+Pentru 9 thread-uri:
+	real	0m0.730s
+	user	0m0.001s
+	sys	0m0.002s
+
+3) Codul nu afiseaza mesajele dupa asteptarea mea dar presupun ca odata ce
+ruleaza pe mai multe thread-uri, afiseaza mesajele in funtie de prelucrarea
+lor pe fiecare thread.
+
+4)./example4
+
+6)
+Pentru 8 thread-uri:
+	real	0m0.239s
+	user	0m0.004s
+	sys	0m0.002s
+Pentru 1 thread-uri:
+	real	0m1.000s
+	user	0m0.402s		 		 			      	 
+	sys	0m0.058s
