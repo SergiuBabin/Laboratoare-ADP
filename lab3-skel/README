@@ -1,0 +1,72 @@
+Laborator 3 APD
+Babin Sergiu
+
+Pentru run foloseste comenzile:
+
+							make run_x 
+							
+Unde x este numarul problemei.
+
+Exemplu: make run_1 = ruleaza oets
+	 make run_2 = ruleaza shear
+	 make run_3 = ruleaza merge
+
+
+
+2.Scalabilitate:
+Pentru N = 100000, P = 1;
+	real	0m40.824s
+	user	0m40.652s
+	sys	0m0.068s
+
+Pentru N = 100000, P = 2;
+	real	0m24.321s
+	user	0m43.462s
+	sys	0m1.150s
+
+Pentru N = 100000, P = 4;
+	real	0m13.628s
+	user	0m44.630s
+	sys	0m2.100s
+
+
+
+4.Scalabilitate:
+Pentru L = 1000, P = 1;
+	real	0m1.233s
+	user	0m1.225s
+	sys	0m0.006s
+
+Pentru L = 1000, P = 2;
+	real	0m0.647s
+	user	0m1.261s
+	sys	0m0.006s
+
+Pentru L = 1000, P = 4;
+	real	0m0.352s
+	user	0m1.283s
+	sys	0m0.008s
+
+
+
+5.Scalabilitate:
+Pentru N = 67108864, P = 1;
+	real	0m14.433s
+	user	0m14.129s
+	sys	0m0.256s
+
+Pentru N = 67108864, P = 2;
+	real	0m8.025s
+	user	0m14.439s
+	sys	0m0.269s
+
+Pentru N = 67108864, P = 4;
+	real	0m4.750s
+	user	0m14.726s
+	sys	0m0.248s
+
+
+
+
+
+	
