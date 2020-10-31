@@ -15,3 +15,10 @@ Algoritmi Paraleli și Distribuiți
     * Pornind de același cod, paralelizați doar cea de-a doua buclă de iterație.
     * Pornind de la același cod, paralelizați doar bucla interioară.
     * Pornind de la fișierul strassen.c din arhiva de laborator, paralelizați înmulțirea unor matrice cu algoritmul Strassen folosind 7 thread-uri.
+
+### Laborator 3
+   
+    * Implementați și paralelizați algoritmul odd-event transposition sort.
+    * Implementați și paralelizați algoritmul shear sort.
+    * Implementați și paralelizați algoritmul merge sort.
+    
