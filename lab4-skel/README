@@ -1,0 +1,24 @@
+Bug 1:
+
+
+Bug 2:
+Doua synchronized nu se bloceaza una pe alta chiar daca au acelasi Lock. 
+
+Bug 3:
+	Nu folosim doua Lock-uri diferite deoarece Lock-urile sunt egale
+	static String a = "LOCK";
+	static String b = "LOCK";
+	Este diferit de 
+	String a = "LOCK";
+	String b = new String("LOCK");
+
+Bug 4:
+	boolean keepRunning = true;
+	Aici programul poate citi valoarea veche din cache, chiar daca valoarea sa schimbat deja.
+
+	Trebuie sa folosim: 
+	volatile boolean keepRunning = true;
+	Valoarea va fi pastrata in RAM si va fi fazuta de fiecare thread la orice schimbare.
+
+Bug 5:
+	

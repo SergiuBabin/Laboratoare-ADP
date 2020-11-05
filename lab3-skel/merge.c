@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <math.h>
-#include "pthread_barrier_mac.h"
+//#include "pthread_barrier_mac.h"
 #define min(x, y) (((x) < (y) ? (x) : (y)))
 int N;
 int P;
