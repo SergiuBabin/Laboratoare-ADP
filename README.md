@@ -91,3 +91,7 @@ Algoritmi Paraleli și Distribuiți
     * Implementați sortarea prin pipeline, folosind scheletul de laborator și explicațiile din laborator și slide-uri.
     * Să se sorteze un vector folosindu-se algoritmul Rank Sort.
 ### Laborator 10.  
+	* Aflati nodul lider al clusterului folosind un algoritm heartbeat (3p)
+	* Realizati arborele de acoperire, plecand din lider, folosind un algoritm unda-ecou (3p)
+	* Asigurati-va ca numarul de elemente din arborele de acoperire a fost stabilit bine prin calcularea numarului de noduri folosind un algoritm epidemic (3p)
+	* Folosind arborele de acoperire, trimiteti catre lider configuratia fiecarui nod si realizati in lider matricea de topologie a clusterului. Distribuiti topologia catre toate nodurile (1p)
